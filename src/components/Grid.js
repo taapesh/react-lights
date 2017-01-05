@@ -7,11 +7,11 @@ export default class Grid extends Component {
 	}
 
 	constructor(props) {
-    super(props);
-    this.state = {
-    	size: props.size
-    };
-  }
+		super(props);
+		this.state = {
+			size: props.size
+		};
+	}
 
 	style = () => ({
 		height: '100%',
@@ -33,5 +33,5 @@ export default class Grid extends Component {
 				{this.generateRows(this.state.size)}
 			</div>
 		)
-  }
+	}
 }
